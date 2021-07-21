@@ -19,7 +19,9 @@ public class Main {
                 .allChordsAs("$0q $1q $2q $3q $4w")
                 .setKey("C");
 
-        player.play(phrase1.setVoice(0).add(cp.getPattern().setVoice(1)));
+        //player.play(phrase1.setVoice(0).add(cp.getPattern().setVoice(1)));
+
+        new Harmonizer().generateChordProgressionFromPhrase(phrase1);
 
     }
 }
