@@ -9,7 +9,7 @@ public class Main {
 
         Player player = new Player();
 
-        Pattern phrase1 = new Pattern("C5q G4q A4q G4i F4i | E4h G4h");
+        Pattern phrase1 = new Pattern("C6q G5q A5q G5i F5i | E5h G5h");
 
         Pattern phrase2 = new Pattern("A4i G4i A4q G4q A4i B4i | C5h C5h");
 
@@ -21,7 +21,9 @@ public class Main {
 
         //player.play(phrase1.setVoice(0).add(cp.getPattern().setVoice(1)));
 
-        new Harmonizer().generateChordProgressionFromPhrase(phrase1);
+        cp = new Harmonizer().generateChordProgressionFromPhrase(phrase2);
+
+        player.play(phrase2.setVoice(0).add(cp.getPattern().setVoice(1)));
 
     }
 }
