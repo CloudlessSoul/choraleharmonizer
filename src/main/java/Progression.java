@@ -1,11 +1,11 @@
 
 public enum Progression {
 	
-	Ic_V("Ic V"),
-	Ic_V_I("Ic V I"),
-	Ic_V7_I("Ic V7 I"),
-	Ic_V7_IVc_I("Ic V7 IVc I"),
-	IVc_I("IVc I");
+	Ic_V("I^^ V"),
+	Ic_V_I("I^^ V I"),
+	Ic_V7_I("I^^ V7 I"),
+	Ic_V7_IVc_I("I^^ V7 IV^^ I"),
+	IVc_I("IV^^ I");
 	
 	String pattern;
 	

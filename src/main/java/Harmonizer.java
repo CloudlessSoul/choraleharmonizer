@@ -26,7 +26,7 @@ public class Harmonizer {
     }
 
     public static String[] cMajorNotes = new String[]{"C","D","E","F","G","A","B"};
-    public static String[] majorChords = new String[]{"I", "ii", "iii", "IV", "V", "vi", "vii"};
+    public static String[] majorChords = new String[]{"I", "ii", "iii", "IV", "V", "vi", "viid"};
 
 
     public ChordProgression generateChordProgressionFromPhrase(Pattern phrase) {
